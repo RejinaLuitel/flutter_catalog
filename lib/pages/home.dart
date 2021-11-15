@@ -47,12 +47,25 @@ class _HomePageState extends State<HomePage> {
           padding: const EdgeInsets.all(15.0),
           // ignore: unnecessary_null_comparison
           child:(CatalogModel.items!=null && CatalogModel.items.isNotEmpty)
-          ? ListView.builder(
-          itemCount: CatalogModel.items.length,
-          itemBuilder: (context, index)=> ItemWidget(
-              item: CatalogModel.items[index],
-            ),
-          )
+          ? GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), 
+            
+    
+          itemBuilder: (context, index){
+                final item= CatalogModel.items[index];
+           return Card(
+             clipBehavior: Clip.antiAlias,
+           shape: RoundedRectangleBorder(
+
+             borderRadius: BorderRadius.circular(10)
+           ),
+             child: GridTile(
+               
+               child: Image.network(item.image)));
+          }  ,
+           itemCount: CatalogModel.items.length,
+            )
+          
           :Center(
               child:CircularProgressIndicator(),
           ),

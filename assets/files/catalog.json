@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Marigod",
+            "desc": "It is most popular flower",
+            "price": 500,
+            "color": "#033505a",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+        },
+        {
+            "id": 2,
+            "name": "lily",
+            "desc": "It is most popular flower",
+            "price": 500,
+            "color": "#033505a",
+            "image": "https://image.shutterstock.com/image-photo/lillylilly-flowerlilly-plant-pr-pink-260nw-1308757933.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Peace lily(indoor plant)",
+            "desc": "If you want to grow a low-care flowering houseplant, grow peace lily! Peace lily’s beautiful white bracts and tiny flowers flourish in low lighting conditions.",
+            "price": 5000,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2016/10/peace-lily-indoors.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Begonia",
+            "desc": "Begonia  are among the best and most popular houseplants",
+            "price": 3000,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2018/10/DETA2-9497.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Bromeliads",
+            "desc": "They thrive easily without much care and thrive in low-light conditions as well.",
+            "price": 900,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2018/10/4162a4f002cb2fc51328703c91d7490d.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Croton",
+            "desc": "Croton is one of the best plants to display red with different hues. Do make sure that the plant gets 3-4 hours of sun for that pop of colors!",
+            "price": 1050,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2021/11/1Codiaeum-variegatum6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Geranium",
+            "desc": "It requires a south or west-facing window that receives ample sun and moderate watering.",
+            "price": 1500,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2018/10/download-1_1.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Poinsettia",
+            "desc": "Growing poinsettias in your home can add a bright touch to your interior. Its multicolor bracts look more colorful than its flowers.",
+            "price": 1900,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2018/10/Poinsettia0.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Lipstick Plant",
+            "desc": "Although not commonly grown as a houseplant, lipstick plants can be grown indoors. It requires a constantly warm temperature and humid surroundings to thrive.",
+            "price": 1200,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2018/10/Aeschynanthus-radicans.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Madagascar Dragon Tree",
+            "desc": "Though the plant stays and looks green, give it a good sun exposure, and it will gift you with stunning red foliage. Avoid keeping it in the harsh afternoon sun for long.",
+            "price": 1200,
+            "color": "#033505a",
+            "image": "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2021/11/14Dracaena-marginata-%E2%80%98Tricolor5.jpg"
+        }
+    ]
+}

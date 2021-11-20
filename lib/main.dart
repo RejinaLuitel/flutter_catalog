@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/pages/cart.dart';
 import 'package:flutter_catalog/pages/home.dart';
 import 'package:flutter_catalog/widgets/themes.dart';
 import 'pages/login.dart';
 import 'utils/routes.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -16,9 +18,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //for light theme
       //themeMode: ThemeMode.dark for dark
-     themeMode: ThemeMode.light,
+     themeMode: ThemeMode.system,
      theme: MyTheme.lightTheme(context),
-
     // for dark theme properties
     darkTheme: MyTheme.darkTheme(context),
     initialRoute: MyRoutes.homeRoutes,
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
       "/":(context)=>LoginPage(),
       MyRoutes.homeRoutes:(context)=> HomePage(),
       MyRoutes.loginRoutes:(context)=> LoginPage(),
+      MyRoutes.cartRoute:(context)=> CartPage(),
     },
     );
   }

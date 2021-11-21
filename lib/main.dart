@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/core/store.dart';
 import 'package:flutter_catalog/pages/cart.dart';
 import 'package:flutter_catalog/pages/home.dart';
 import 'package:flutter_catalog/widgets/themes.dart';
+import 'package:velocity_x/velocity_x.dart';
 import 'pages/login.dart';
 import 'utils/routes.dart';
 
 
 void main() {
-  runApp(MyApp());
+  runApp(VxState(
+    store: MyStore(),
+
+    child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -22,7 +27,7 @@ class MyApp extends StatelessWidget {
      theme: MyTheme.lightTheme(context),
     // for dark theme properties
     darkTheme: MyTheme.darkTheme(context),
-    initialRoute: MyRoutes.homeRoutes,
+    initialRoute: MyRoutes.loginRoutes,
     routes: {
       "/":(context)=>LoginPage(),
       MyRoutes.homeRoutes:(context)=> HomePage(),
